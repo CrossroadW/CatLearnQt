@@ -109,10 +109,10 @@
         <file>Images/CatWhite/QcustomplotLineChart.png</file>
         <file>qss/CatGray/CatLineChart.css</file>
         <file>qss/CatWhite/CatLineChart.css</file>
-        <file>lang/language_en.qm</file>
-        <file>lang/language_en.ts</file>
-        <file>lang/language_zh_CN.qm</file>
-        <file>lang/language_zh_CN.ts</file>
+        <file>Lang/language_en.qm</file>
+        <file>Lang/language_en.ts</file>
+        <file>Lang/language_zh_CN.qm</file>
+        <file>Lang/language_zh_CN.ts</file>
         <file>Images/CatGray/CheckOff_gray.png</file>
         <file>Images/CatGray/CheckOff_orange.png</file>
         <file>Images/CatGray/CheckOn_orange.png</file>

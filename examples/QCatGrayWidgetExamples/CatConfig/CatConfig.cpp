@@ -30,12 +30,12 @@ void CatConfig::InitLang(QLocale::Language lang)
     bool arg = true;
     switch (lang) {
         case QLocale::Chinese: {
-            arg = m_pTranslator->load(QString(":/lang/language_zh_CN.qm"));
+            arg = m_pTranslator->load(QString(":/Lang/language_zh_CN.qm"));
             QCatGraySettingBase::SetValue(m_sConfigPath, "Language", "chinese(china)", "Defaule");
             break;
         }
         default: {
-            arg = m_pTranslator->load(QString(":/lang/language_en.qm"));
+            arg = m_pTranslator->load(QString(":/Lang/language_en.qm"));
             QCatGraySettingBase::SetValue(m_sConfigPath, "Language", "english", "Defaule");
             break;
         }

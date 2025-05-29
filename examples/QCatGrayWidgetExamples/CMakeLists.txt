@@ -30,7 +30,7 @@ else(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt5_add_resources(PROJECT_QRC_FILES ${PROJECT_QRC_SOURCE_FILES})
 endif(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 
-set(TS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Resource/lang")
+set(TS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lang")
 
 set(TS_FILES
     "${TS_DIR}/language_en.ts"
