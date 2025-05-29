@@ -63,13 +63,13 @@ Rectangle {
 
         // 解决button侧栏圆角问题 buttonsRect
         layer.enabled: true
-        layer.effect: CatOpacityMask{
-            maskSource: Rectangle{
-                width: morerect.width
-                height: morerect.height
-                radius: 5
-            }
-        }
+        // layer.effect: CatOpacityMask{
+        //     maskSource: Rectangle{
+        //         width: morerect.width
+        //         height: morerect.height
+        //         radius: 5
+        //     }
+        // }
         //width: 800
 
         //anchors.centerIn: parent
@@ -309,15 +309,15 @@ Rectangle {
          }
      }*/
 
-    CatDropShadow {
-        anchors.fill: morerect
-        horizontalOffset: 0
-        verticalOffset: 0
-        radius: 8.0
-        samples: 18
-        color: ProjectObject.catPopupdropshadowColor
-        source: morerect
-    }
+    // CatDropShadow {
+    //     anchors.fill: morerect
+    //     horizontalOffset: 0
+    //     verticalOffset: 0
+    //     radius: 8.0
+    //     samples: 18
+    //     color: ProjectObject.catPopupdropshadowColor
+    //     source: morerect
+    // }
 
     onVisibleChanged: {
         settingbutton.checked = true;

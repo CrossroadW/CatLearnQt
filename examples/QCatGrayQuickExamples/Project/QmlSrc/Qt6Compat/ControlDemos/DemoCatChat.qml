@@ -31,7 +31,7 @@ Item {
                 anchors.margins: 10
                 clip: true
                 chatviewDelegate: CatChatItemBase {
-                    width: parent.width
+                    width: catchatview.width
                     height: delegate.item != null ? delegate.item.height : 0
                     chatmodel: catchatview.chatviewRepeaterModel
                     senderBgColor: ProjectObject.defaultButton_DefaultColor
